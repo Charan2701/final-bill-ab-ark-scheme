@@ -341,7 +341,7 @@ page { background: white;
          body, page {
              margin: 0;
             box-shadow: none;
-            padding:10px 0;
+            
            } 
 
             a[href]:after {
@@ -351,6 +351,7 @@ page { background: white;
     page{
         box-shadow: none;
         border: none;
+        padding: 10px 0;
     }
     button{
         visibility: hidden;
