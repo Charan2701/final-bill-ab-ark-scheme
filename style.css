@@ -341,7 +341,7 @@ page { background: white;
          body, page {
              margin: 0;
             box-shadow: none;
-            padding:0 10px;
+            padding:10px 0;
            } 
 
             a[href]:after {
