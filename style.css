@@ -333,15 +333,19 @@ page { background: white;
      
      page[size="A4"] { 
         width: 21cm; 
-        height: 30.5cm;
+        height: 29.7cm;
     }
      
      
      @media print {
          body, page {
              margin: 0;
-             padding: 0;
-            box-shadow: 0; } 
+            box-shadow: none; } 
+
+            a[href]:after {
+              content: none !important;
+          }
+
     page{
         box-shadow: none;
         border: none;
@@ -454,26 +458,6 @@ table {
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
   
-
-
-/* 
-  #box1{
-    display: none;
-  }
-  .box{
-    display: none;
-  }
-
-  #box2{
-    display: block;
-  } */
-
-
-
-
-
-
-
   #page1{
     height: 100%;
     width: 100%;
@@ -1079,23 +1063,6 @@ tr.no-border td {
   75%,100% {
     transform: rotateZ(0) rotateX(0);
   }
-}
-
-#stay{
-  height: 250px;
-  width: 350px;
-  background-color: #EBF8FF;
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 10px;
-  border-radius: 10px;
-  border: 3px solid black;
-}
-
-#stay table{
-  font-size: 15px;
 }
 
 
