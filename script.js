@@ -293,7 +293,7 @@ var acollect=document.getElementById("iacollected").value;
       
 
       
-      pageheight.style.height=x*30.5+"cm";
+      pageheight.style.height=x*29.7+"cm";
       
 
 
