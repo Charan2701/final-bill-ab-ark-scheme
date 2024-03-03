@@ -1100,7 +1100,7 @@ tr.no-border td {
 #fmain{
   font-size: 40px;
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 35%;
   border-bottom: 3px solid white;
 }
