@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Bill(AB-ARK Scheme).....</title>
+    <link rel="shortcut icon" href="images/circle-icon-16076.png" type="image/x-icon">
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="main"> -->
+        <div id="box1">
+            <div id="heading">
+                <h1>Final Bill(AB-ARK Scheme)</h1>
+            </div>
+            <form action="" id="main-form">
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="iname">Patient name : </label>
+                        <input type="text" id="iname" placeholder="Name">
+                    </div>
+                    <div id="part2" class="part">
+                        <label for="ibdate">Bill date : </label>
+                        <input type="date" id="ibdate" placeholder="Bill date"  >
+                    </div>
+                    <div id="part3" class="part">
+                        <label for="iadate">Date of Admission : </label>
+                        <input type="date" id="iadate" placeholder="Admission Date">
+                    </div>
+
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="ibillno">Financial year : </label>
+                        <input type="text" id="ibillyy1" placeholder="yy" style="width: 60px;">
+                        <label for="">--</label>
+                        <input type="text" id="ibillyy2" placeholder="yy" style="width: 60px;">
+
+                    </div>
+                    <div id="part2" class="part">
+                        <label for="iipno">IP no : </label>
+                        <input type="text" id="iipno" placeholder="IP No">
+                    </div>
+                    <div id="part3" class="part">
+                        <label for="iddate">Date of Discharge : </label>
+                        <input type="date" id="iddate" placeholder="Admission Date">
+                    </div>
+
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="irefno">Ref No : </label>
+                        <input type="text" id="irefno" placeholder="Ref no">
+                    </div>
+                    
+                    <div id="part2" class="part">
+                        <label for="ipadate">pre auth date : </label>
+                        <input type="date" id="ipadate" placeholder="Pre auth date">
+                    </div>
+                    <div id="part3" class="part">
+                        <label for="isdate">date of surgery : </label>
+                        <input type="date" id="isdate" placeholder="Date of Surgery">
+
+                       
+                    </div>
+
+
+
+
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="iage">age : </label>
+                        <input type="text" id="iage" placeholder="Age">
+                        
+                    </div>
+                    <div id="part2" class="part">
+                        <label for="isex">sex : </label>
+                        <!-- <input type="text" id="isex" placeholder="Sex"> -->
+                        <select name="" id="isex">
+                            <option value="Male" selected>Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <div id="part3" class="part">
+                        <label for="ibplno">BPL card no : </label>
+                        <input type="text" id="ibplno" placeholder="BPL card no">
+                    </div>
+
+                </div>
+
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="idistrict">Patient district : </label>
+                        <input type="text" id="idistrict" placeholder="Patient district">
+                    </div>
+                    <div id="part3" class="part spart">
+                        <label for="iaddress">Address : </label>
+                        <input type="text" id="iaddress" placeholder="Address">
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="idep">department : </label>
+                        <!-- <input type="text" id="idep" placeholder="Department"> -->
+                        <select name="" id="idep">
+                            <option value="PSYCHIATRY" selected>PSYCHIATRY</option>
+                        </select>
+                    </div>
+                    <div id="part2" class="part">
+                        <label for="idir">doctor : </label>
+                        <!-- <input type="text" id="idir" placeholder="Director"> -->
+                        <select name="" id="idoc">
+                            <option value="Dr. Roopesh Gopal N V" selected>Dr. Roopesh Gopal N V</option>
+                        </select>
+                    </div>
+                    <div id="part3" class="part">
+                        <label for="imitra">arogyamitra : </label>
+                        <!-- <input type="text" id="imitra" placeholder="Arogyamitra"> -->
+                        <select name="" id="imitra">
+                            <option value="Dilip">Dilip</option>
+                            <option value="Dore Bagavan">Dore Bagavan</option>
+                            <option value="Myna B K">Myna B K</option>
+                            <option value="Fousiya M">Fousiya M</option>
+                            <option value="Subramani" selected>Subramani</option>
+                        </select>
+                        
+                    </div>
+
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="ipcode">package code : </label>
+                        <input type="text" id="ipcode" placeholder="Package code">
+                    </div>
+                    <div id="part2" class="part spart">
+                        <label for="iproanme">Procedure name : </label>
+                        <input type="text" id="iproname" placeholder="Procedure name">
+                        
+                    </div>
+                    <!-- <div id="part3" class="part">
+                        
+                    </div> -->
+
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="itpamount">total package cost amount : </label>
+                        <input type="text" id="itpamount" placeholder="Total Package Amount">
+                    </div>
+                    <div id="part2" class="part">
+                        <label for="itcamount">total claim amount: </label>
+                        <input type="text" id="itcamount" placeholder="Total claim Amount">
+                    </div>
+                    <div id="part3" class="part">
+                        
+                    </div>
+
+                </div>
+            
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="iacollected">Amount Collected : </label>
+                        <input type="text" id="iacollected" placeholder="Amount Collected">
+                    </div>
+                    <div id="part2" class="part">
+                        <label for="iarefund">Amount Refund : </label>
+                        <input type="text" id="iarefund" placeholder="Amount Refund">
+                    </div>
+                    <div id="part3" class="part">
+                        <!-- <label for="iddate">Date of Discharge : </label>
+                        <input type="date" id="iddate" placeholder="Admission Date"> -->
+                    </div>
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part sspart">
+                        <label for="icomplent">complaint : </label>
+                        <input type="text" id="icomplent" placeholder="Complaint">
+                    </div>
+                    
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="">O T note enclosed (Yes/No) </label>
+                        <label class="container">
+                            <input type="checkbox"  id="iotdets">
+                            <div class="checkmark"></div>
+                        </label>
+                    </div>
+                    <div id="part2" class="part">
+                        <label for="">Dischargesummary (Yes/No) </label>
+                        <label class="container">
+                            <input type="checkbox" id="idisdets">
+                            <div class="checkmark"></div>
+                        </label>
+                    </div>
+                    <div id="part3" class="part">
+                        <label for="">Post of investigations Yes/No (As percode book) </label>
+                        <label class="container">
+                            <input type="checkbox"  id="ipoinvest">
+                            <div class="checkmark"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="">Clinical photo showing scar/photo as requirement </label>
+                        <label class="container">
+                            <input type="checkbox"  id="iscardets">
+                            <div class="checkmark"></div>
+                        </label>
+                    </div>
+                    <div id="part2" class="part">
+                        
+                    </div>
+                    <div id="part3" class="part">
+                        
+                    </div>
+                </div>
+                <div class="elem">
+                    <div id="part1" class="part">
+                        <label for="isign">photo of sign :</label>
+                        <input type="file" id="ipsign" >
+                    </div>
+                    <div id="part2" class="part">
+                        
+                    </div>
+                    <div id="part3" class="part">
+                        
+                    </div>
+                </div>
+
+
+                
+                
+                <div id="sub">
+                    <button type="submit" class="button2">submit</button>
+                </div>
+
+
+
+              
+
+                
+                
+            </form>
+
+            <div id="footer">
+              
+                <h1>DESIGNED BY :</h1>
+                <h3>BHARATH H R Intern KOIMS</h3>
+                <h3>CHARAN H R RNSIT BANGLORE</h3>
+                <div id="line"></div>
+                <div id="fmain">
+                    For Department of Psychiatry KOIMS
+                </div>
+                <div id="mail">For Updates mail to :- crpbharath5@gmail.com</div> 
+            </div>
+
+           
+            
+                
+
+           
+                
+        </div>
+
+
+        <div id="" class="box" style="height: 320px;">
+            <div id="heading" class="shead">
+                <h1 style="font-weight: 500;font-size: 26px;">Table Generator...</h1>
+            </div>
+            
+
+                <div id="selem" >
+
+                    <div id="containdate">
+                        <div id="part1" class="part-box">
+                            <label for="start_date">date of Admission:</label>
+                            <input type="date" id="start_date">
+                        </div>
+                        <div id="part2" class="part-box">
+                            <label for="end_date">date of Discharge:</label>
+                            <input type="date" id="end_date">
+                        </div>
+
+
+                    </div>
+                    
+                    
+                    <div id="part3" class="part">
+                        <button onclick="displayDates()" class="button2">NEXT-</button>
+                       
+                    </div>
+
+                </div>
+                    
+
+                
+
+        </div>
+
+
+        <div id="loader">
+            <h1 id="lheading">GENERATING PDF...</h1>
+            <div class="loader">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+              
+              <div class="loader loader--reflect">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+
+        </div>
+
+
+
+        <div id="box2">
+            <!-- page1 -->
+            <page size="A4">
+                <div id="page1">
+                    <div id="p1part1">
+                        <div id="p1image">
+                            <img src="/images/main logo.png" alt="">
+
+                        </div>
+
+                        
+                    </div>
+                    <div id="p1part2">
+                        <div id="p1content">
+                            <table >
+                                <tr>
+                                    <td class="tc1">1.1.</td>
+                                    <th class="tc2">PATIENT NAME</th>
+                                    <td class="tc3" id="oname">ravi</td>
+                                    <th class="tc4">Bill Date</th>
+                                    <td class="tc5" id="obdate">06-feb-2024</td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class="tc1">2</td>
+                                    <th class="tc2">REF No</th>
+                                    <td class="tc3" id="orefno"></td>
+                                    <th class="tc4">Bill No</th>
+                                    <td class="tc5" >KOIMS <span id="obillyy1"></span>-<span id="obillyy2"></span>  /<span id="oipno"></span></td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class="tc1">3</td>
+                                    <th class="tc2">DATE OF ADMISSION</th>
+                                    <td class="tc3" id="odoa">xxxxx</td>
+                                    <th class="tc4">IP No</th>
+                                    <td class="tc5" id="oipno">xxxxxxx</td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <td class="tc1">4</td>
+                                    <th class="tc2">DATE OF SURGERY</th>
+                                    <td class="alltc3" colspan="3" id="odos">xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">5</td>
+                                    <th class="tc2">DATE OF DISCHARGE</th>
+                                    <td class="alltc3" colspan="3" id="odod">xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">6</td>
+                                    <th class="tc2">ADDRESS</th>
+                                    <td class="alltc3" colspan="3" id="oaddress"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">7</td>
+                                    <th class="tc2">BL CARD NO</th>
+                                    <td class="alltc3" colspan="3" id="obplno"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">8</td>
+                                    <th class="tc2">AGE/GENDER</th>
+                                    <td class="alltc3" colspan="3"><span id="oage"></span>/<span id="osex"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">9</td>
+                                    <th class="tc2">DEPARTMENT</th>
+                                    <td class="alltc3" colspan="3" id="odep"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">10</td>
+                                    <th class="tc2">DOCTOR NAME</th>
+                                    <td class="alltc3" colspan="3" id="odoc"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">11</td>
+                                    <th class="tc2">PACKAGE CODE</th>
+                                    <td class="alltc3" colspan="3" id="opcode">xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">12</td>
+                                    <th class="tc2">PROCEDURE NAME</th>
+                                    <td class="alltc3" colspan="3" id="oproname">xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">13</td>
+                                    <th class="tc2">TOTAL COST OF PACKAGE
+                                        APPROVED AMOUNT</th>
+                                    <td class="alltc3" colspan="3" id="otpamount">xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">14</td>
+                                    <th class="tc2">TOTAL CLAIM AMOUNT </th>
+                                    <td class="alltc3" colspan="3" id="otcamount">xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="tc1">.</td>
+                                    <th class="tc2"> </th>
+                                    <td class="alltc3" colspan="3">  </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="p1part3">
+                        <div id="p1sign">
+                            <img src="/images/page1sign.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </page>
+
+            <!-- page2 -->
+            <page size="A4">
+                <div id="page2">
+                    <div id="p2part1">
+                        <img src="images/page2.png" alt="">
+                    </div>
+                    <div id="p2part2">
+                        <table >
+                            <tr >
+                                <td colspan="6"><div ><span id="page2headings">Hospital name : </span><span class="page2contents"> Kodagu Institute ofMedicalSciences, TeachingHospital, Madikere</span></div></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"><div ><span id="page2headings">Patient name : </span><span class="page2contents" id="oname"></span></div></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"><div ><span id="page2headings">AB-ArKID/Ration card no:</span><span class="page2contents" id="obplno"></span></div></td>
+                            </tr>
+                            <tr  class="no-border" >
+                                <td colspan="2" ><div ><span id="page2headings">D.O.A :</span><span class="page2contents" id="odoa"></span></div></td>
+                                <td colspan="2" ><div ><span id="page2headings">D.O.S :</span><span class="page2contents" id="odos"></span></div></td>
+                                <td colspan="2"><div ><span id="page2headings">D.O.D :</span><span class="page2contents" id="odod"></span></div></td>
+                               
+
+                            </tr>
+                            <tr class="no-border" >
+                                <td colspan="" ><div ><span id="page2headings">Preauth issue date:</span><span class="page2contents" id="opadate"></span></div></td>
+                                <td colspan="4"><div ><span id="page2headings">Preauth no :</span><span class="page2contents" id="orefno"></span></div></td>
+                                
+                                
+                               
+
+                            </tr>
+                        </table>
+
+                        <h2 style="text-align: center; margin-top: 20px;">TREATMENTDETAILS</h2>
+
+                        <table >
+                            <tr class="no-border">
+                                <td colspan="3"><div ><span id="page2headings">Procedure Code Approved : </span><span class="page2contents"></span></div></td>
+                                <td colspan="3"><div ><span id="page2headings">Procedure Code Done : </span><span class="page2contents" id="opcode"></span></div></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"><div ><span id="page2headings">Name of the Procedure : </span>  <span class="page2contents" id="oproname"></span></div></td>
+                            </tr>
+                            <tr  class="no-border" >
+                                <td colspan="3"><div ><span id="page2headings">Treating DoctorName : </span><span class="page2contents" id="odoc"></span></div></td>
+                                <td colspan="3"><div ><span id="page2headings">Mobile no : </span><span class="page2contents"></span></div></td>
+                            </tr>
+                            <tr  class="no-border" >
+                                <td colspan="6" ><div ><span id="page2headings">DIAGNOSIS :</span><span class="page2contents">xxx </span></div></td>
+                             </tr>
+                            
+                        </table>
+                        <h2 style="text-align: center; margin-top: 20px;">FEEDBACK&REFUND</h2>
+                        <table >
+                            <tr class="no-border">
+                                <td colspan="3"><div ><span id="page2headings">Shri/smt/Kum : </span><span class="page2contents" id="oname"></span></div></td>
+                                <td colspan="3"><div ><span id="page2headings">From : </span><span class="page2contents" id="oaddress"></span></div></td>
+                            </tr>
+                            <tr class="no-border">
+                                <td colspan="3"><div ><span id="page2headings">Taluk : </span><span class="page2contents"></span></div></td>
+                                <td colspan="3"><div ><span id="page2headings">District : </span><span class="page2contents" id="odistrict"></span></div></td>
+                            </tr>
+                            <tr  class="no-border" >
+                                <td colspan="4"><div ><span id="page2headings">having AB-ArKID/Ration card : </span><span class="page2contents" id="obplno">xxxx</span></div></td>
+                                <td colspan="4"><div ><span id="page2headings"></span><span class="page2contents">having treated under
+                                </span></div></td>
+                                
+                                
+                                
+                            </tr>
+                            <tr  class="no-border" >
+                                <td colspan="4" ><div ><span id="page2headings">AyushmanBharath - Arogya Karnataka Scheme was discharged on</span></div></td>
+                                <td colspan="3" ><div ><span id="page2headings"></span><span class="page2contents" id="odod"></span></div></td>
+                            </tr>
+                                
+                        </table>
+
+                            
+
+
+                    </div>
+                    <div id="p2part3">
+                        <div id="p2part3img">
+                            <img src="images/page2img.png" alt="">
+                            <div id="acollect1">RS <span id="oacollect"></span>/-</div>
+                            <div id="arefund1">RS <span id="oarefund"></span>/-</div>
+                        </div>
+                        
+                    </div>
+
+                    <div id="p2part4">
+                        <div id="p2part4imgl">
+                            <div style="margin-top: 6.5px; font-size: 13px; font-weight: 500;">Signature ofthe Patient</div>
+                            <div id="page2image" style="background-color: white;"><img src="" alt="" id="opsign"></div>
+                        </div>
+                        <div id="p2part4imgr">
+                            <img src="images/page2sign.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </page> 
+            <!-- page3 -->
+            
+            <page size="A4" id="special">
+                <div id="page3">
+                    <div id="p3part1">
+                        <img src="images/page3logo.png" alt="">
+                        <div id="p3part1i">
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">Hospital name :</th>
+                                    <td colspan="3">Kodagu Institute ofMedicalSciences, TeachingHospital, Madikere</td>
+                                </tr>
+                                <tr>
+                                    <th>Arogyamitra/Hospital
+                                        Representative Name :</th>
+                                    <td id="omitra"></td>
+                                    <th>Pre-authNo : </th>
+                                    <td id="orefno"></td>
+                                </tr>
+                                <tr>
+                                    <th>Date of Admission :</th>
+                                    <th>Date of Surgery : </th>
+                                    <th colspan="2">Date of Discharge :</th>
+                                </tr>
+                                <tr>
+                                    <td><p id="odoa"></p></td>
+                                    <td><p id="odos"></p> </td>
+                                    <td colspan="2" id="odod"><p></p></td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+                        
+                    </div>
+                    <div id="p3part2">
+                        <table id="date_table">
+                            <thead>
+                              <tr>
+                                <th>Date of visit</th>
+                                <th>Visit Time</th>
+                                <th>Food Provided</th>
+                                <th>Any Complaints</th>
+                              </tr>
+                            </thead>
+                            <tbody id="date_table_body"></tbody>
+                            <tbody>
+                                <tr>
+                                    <td>--</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div id="p3part3">
+                        <div id="p3img1">
+                            <img src="images/page3sign.png" alt="">
+                        </div>
+                        <div id="p3img2" style="background-color: white;">
+                            <img src="" alt="" id="opsign" >
+                        </div>
+                        <div id="acollect"><span id="oacollect"></span></div>
+                        <div id="arefund"><span id="oarefund"></span></div>
+                    </div>
+                </div>
+               
+            </page>
+
+            <!-- page4 -->
+            <page size="A4">
+                <div id="page4">
+                    <div id="p4part1">
+                        <img src="images/page4logo.png" alt="">
+                    </div>
+                    <div id="p4part2">
+                        <table>
+                            <tr>
+                                <th style="width: 40%;">Name ofthe Hospital:</th>
+                                <td>Kodagu Institute ofMedicalSciences, TeachingHospital, Madikere</td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Patient Name: </th>
+                                <td id="oname">xxxx</td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Date ofApproval of preauth</th>
+                                <td id="opadate"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Packagecode/sapproved </th>
+                                <td id="opcode"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Amountapproval </th>
+                                <td id="otpamount"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Date ofsurgery/ Procedure performed</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">O T noteenclosed (Yes/No) </th>
+                                <td id="ootdets"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Dischargesummary (Yes/No)</th>
+                                <td id="odisdets"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Post ofinvestigations Yes/No (As percode book)</th>
+                                <td id="opoinvest"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Clinical photo showing scar/photo as requirement</th>
+                                <td id="oscardets"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Amountclaimed</th>
+                                <td id="otcamount"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 40%;">Remarks</th>
+                                <td></td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                    <div id="p4part3" style="margin-top: 10px;">
+                        <img src="images/page4sign.png" alt="">
+                    </div>
+                </div>
+            </page>
+            <!-- page5 -->
+            <page size="A4">
+                <div id="page5">
+                    <div id="p5part1">
+                        <img src="images/page5logo.png" alt="">
+                    </div>
+                    <div id="p5part2">
+                        <p style="font-size: 15.9px; line-height: 1.6; font-weight: 540;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            ಶ್ರೀ/ಶ್ರೀಮತಿ/ಕುಮಾರ/ಕುಮಾರಿ: <span style="border-bottom: 1px solid black;font-weight: 600;" id="oname">Ravi</span> ಗ್ರಾಮ: <span style="border-bottom: 1px solid black;font-weight: 600;" id="oaddress"></span> ತಾಲ್ಲೂಕು <span style="border-bottom: 1px solid black;font-weight: 600;" id="oaddress"></span> ಜಿಲ್ಲೆಯ: <span style="border-bottom: 1px solid black;font-weight: 600;" id="odistrict">Mysore</span> ನಿವಾಸಿಯಾಗಿದ್ದು, ನಾನು ಆಯುಷ್ಮಾನ್ ಭಾರತ್ ಆರೋಗ್ಯ ಕರ್ನಾಟಕ ಕಾರ್ಡ್( ARKID/ ಪಡಿತರ ಚೀಟಿ) ಸಂಖ್ಯೆ : <span style="border-bottom: 1px solid black;font-weight: 600;" id="obplno"></span> ಹೊಂದಿದ್ದು : <span style="border-bottom: 1px solid black;font-weight: 600;">Kodagu Institute of Medical Sciences, Teaching Hospital, Madikere </span>ಆಸ್ಪತ್ರೆಯಿಂದ ಆಯುಷ್ಮಾನ್
+                             ಭಾರತ್ ಆರೋಗ್ಯ ಕರ್ನಾಟಕ ಯೋಜನೆಯಡಿಯಲ್ಲಿ ಉಚಿತ ಚಿಕಿತ್ಸೆ ಪಡೆದು ದಿನಾಂಕ :<span style="border-bottom: 1px solid black;font-weight: 600;" id="odod"></span> &nbsp;&nbsp;&nbsp;&nbsp; ರಂದು ಬಿಡುಗಡೆಯಾಗಿರುತ್ತೆನೆ .
+                             <br> 1. ಪ್ರಯಾಣ ಭತ್ಯೆ <span style="border-bottom: 1px solid black;">ರೂ. 0 ಪಡೆದಿರುವುದಿಲ್ಲ</span> <br>
+                             2. ಆಸ್ಪತ್ರೆಯವರು ಉಚಿತ ಆಹಾರ <span style="border-bottom: 1px solid black;">ಒದಗಿಸಿರುತ್ತಾರೆ</span> <br>
+                             3. ಆಸ್ಪತ್ರೆಯಿಂದ ಚಿಕಿತ್ಸೆ ಪಡೆದ ಬಗ್ಗೆ ನನ್ನ ಅನಿಸಿಕೆ ಈ ಕೆಳಗಿನಂತೆ ಇರುತ್ತದೆ
+                            
+                        </p>
+                    </div>
+                    <div id="p5part3">
+                        <div id="img1">
+                            <img src="images/page5sign.png" alt="">
+                        </div>
+                        <div id="img2">
+                            <img src="" alt="" id="opsign">
+                        </div>
+                        
+                    </div>
+                    <div id="p5part4">
+                        <p >ದಿನಾಂಕ : <span id="obdate"></span></p>
+                        <p>ಟಿಪ್ಪಣಿ : ಫಲಾನುಭವಿಯ ಅಪ್ರಾಪ್ತ ವಯಸ್ಕನಾಗಿದ್ದಲ್ಲಿ ಕುಟುಂಬದ ಪ್ರಧಾನ ಸದಸ್ಯರು ದೃಡೀಕರಿಸಬೇಕು.</p>
+                        <p style="text-align: center; margin-top: 15px;">ಟಿಪ್ಪಣಿ : ಫಲಾನುಭವಿಯ ಅಪ್ರಾಪ್ತ ವಯಸ್ಕನಾಗಿದ್ದಲ್ಲಿ ಕುಟುಂಬದ ಪ್ರಧಾನ ಸದಸ್ಯರು ದೃಡೀಕರಿಸಬೇಕು.</p>
+                    </div>
+                </div>
+              
+            </page> 
+           <!-- page6 -->
+            <page size="A4">
+                <div id="page6">
+                    <div id="p6part1">
+                        <img src="images/page6logo.png" alt="">
+                    </div>
+                    <div id="p6part2">
+                        <p style="font-size: 17px; line-height: 1.5; font-weight: 500;">
+                            1. This is to certify that we collected <span style="border-bottom: 1px solid black;">Rs. 000</span> (Rs. In words ZERO RUPEES ONLY ) ; towards
+                            Investigation charges from patient <span style="border-bottom: 1px solid black;font-weight: 600;" id="oname"></span> (Name of patient) holding Ayushman Bharat-Arogya
+                            Karnataka Card (Eligible Patient-AB-ArK ID/Ration Card) Number <span style="border-bottom: 1px solid black;font-weight: 600;" id="obplno"></span>  
+                            The amount of Rs. 00 (Rs. ZERO RUPEES ONLY in words) has been refunded to beneficiary
+                            through cash/cheque/DD the preauthorization is <span style="border-bottom: 1px solid black;" id="orefno">AB_ArK_H_AB_ArK_H_2723017752901</span> 
+                            (Preauth Number) has been approved to us.
+                            <br>
+                            2. This is also to certify that <span style="border-bottom: 1px solid black;">Rs. &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; </span> (Rs. In words ) has been paid to beneficiary towards
+                            travelling charges.</p>
+                    </div>
+
+                    <div id="p6part3">
+                        <div id="p6images">
+                            <div id="p6imagel">
+                                <p style="margin-top: 16px;font-size: 13px ; font-weight: 400;"> Signature ofthe Patient</p>
+                                <img src="" alt="" id="opsign">
+                            </div>
+                            <div id="p6imager">
+                                <img src="images/page6sign.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+               
+            </page>
+            <!-- page7 -->
+            <page size="A4">
+                <div id="page7">
+                    <div id="p7part1">
+                        <img src="images/page7logo.png" alt="">
+                    </div>
+                    <div id="p7part2">
+                        <p style="font-size: 16.5px; line-height: 1.5; font-weight: 500;">This is to certify that <span style="border-bottom: 1px solid black;font-weight: 600;" id="oname">Ravi</span> Preauth Number <span style="border-bottom: 1px solid black;font-weight: 600;" id="orefno">AB_ArK_H_AB_ArK_H_2723017752901</span> treated in
+                            and claim of the procedure done is not claimed in any other scheme.
+                            </p>
+                    </div>
+
+                    <!-- here using page 6 sign as it is -->
+                    <div id="p6part3">
+                        <div id="p6images">
+                            <div id="p6imagel">
+                                <p style="margin-top: 16px;font-size: 13px ; font-weight: 400;"> Signature ofthe Patient</p>
+                                <img src="" alt="" id="opsign">
+                            </div>
+                            <div id="p6imager">
+                                <img src="images/page6sign.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </page>
+            
+            
+            <div id="btn">
+                <button onclick="window.print()" class="button2">Save PDF</button>
+            </div>
+        </div>
+
+    <!-- </div> -->
+    <script src="script.js"></script>
+</body>
+</html>
