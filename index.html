@@ -193,13 +193,7 @@
                         <input type="date" id="iddate" placeholder="Admission Date"> -->
                     </div>
                 </div>
-                <div class="elem">
-                    <div id="part1" class="part sspart">
-                        <label for="icomplent">complaint : </label>
-                        <input type="text" id="icomplent" placeholder="Complaint">
-                    </div>
-                    
-                </div>
+            
                 <div class="elem">
                     <div id="part1" class="part">
                         <label for="">O T note enclosed (Yes/No) </label>
@@ -240,13 +234,16 @@
                 </div>
                 <div class="elem">
                     <div id="part1" class="part">
-                        <label for="isign">photo of sign :</label>
+                        <label for="isign">patient sign :</label>
                         <input type="file" id="ipsign" >
                     </div>
-                    <div id="part2" class="part">
+                    <div id="part2" class="part" style="width: 32%;">
+                        <label for="iasign">AROGYAMITRA sign : </label>
+                        <input type="file" id="iasign" multiple>
                         
                     </div>
                     <div id="part3" class="part">
+                        <h3>***Please upload both the signs</h3>
                         
                     </div>
                 </div>
@@ -565,8 +562,14 @@
                             <div style="margin-top: 6.5px; font-size: 13px; font-weight: 500;">Signature ofthe Patient</div>
                             <div id="page2image" style="background-color: white;"><img src="" alt="" id="opsign"></div>
                         </div>
-                        <div id="p2part4imgr">
+                        <div id="p2part4imgr" style="position: relative;">
                             <img src="page2sign.png" alt="">
+                            <div class="p2asign">
+                                <img src="" alt="" id="oasign" >
+
+                            </div>
+
+                            
                         </div>
                     </div>
 
@@ -657,6 +660,9 @@
                     <div id="p3part3">
                         <div id="p3img1">
                             <img src="page3sign.png" alt="">
+                            <div class="p3asign">
+                                <img src="" alt="" id="oasign">
+                            </div>
                         </div>
                         <div id="p3img2" style="background-color: white;">
                             <img src="" alt="" id="opsign" >
@@ -753,6 +759,9 @@
                     <div id="p5part3">
                         <div id="img1">
                             <img src="page5sign.png" alt="">
+                            <div class="p5asign">
+                                <img src="" alt="" id="oasign">
+                            </div>
                         </div>
                         <div id="img2">
                             <img src="" alt="" id="opsign">
@@ -794,8 +803,11 @@
                                 <p style="margin-top: 16px;font-size: 13px ; font-weight: 400;"> Signature ofthe Patient</p>
                                 <img src="" alt="" id="opsign">
                             </div>
-                            <div id="p6imager">
+                            <div id="p6imager" style="position: relative;">
                                 <img src="page6sign.png" alt="">
+                                <div class="p6asign">
+                                    <img src="" alt="" id="oasign">
+                                </div>
                             </div>
                         </div>
 
@@ -823,8 +835,11 @@
                                 <p style="margin-top: 16px;font-size: 13px ; font-weight: 400;"> Signature ofthe Patient</p>
                                 <img src="" alt="" id="opsign">
                             </div>
-                            <div id="p6imager">
+                            <div id="p6imager" style="position: relative;">
                                 <img src="page6sign.png" alt="">
+                                <div class="p6asign">
+                                    <img src="" alt="" id="oasign">
+                                </div>
                             </div>
                         </div>
 

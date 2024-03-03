@@ -222,10 +222,22 @@ var acollect=document.getElementById("iacollected").value;
        mitralist[i].innerText = mitra;
      }
   //  sign
+
+  // patient sign
   var signlist=document.querySelectorAll("#opsign")
      for (let i = 0; i < signlist.length; i++) {
        signlist[i].src = URL.createObjectURL(ipsign.files[0]);
      }
+
+  // arogyamitra sign
+  var iasign=document.getElementById("iasign");
+
+  var asignlist=document.querySelectorAll("#oasign")
+
+     for (let i = 0; i < asignlist.length; i++) {
+       asignlist[i].src = URL.createObjectURL(iasign.files[0]);
+     }
+
 
 
     
@@ -328,13 +340,13 @@ var acollect=document.getElementById("iacollected").value;
 
         const loader =setTimeout(function(){
           document.querySelector("#box2").style.display="block"
-        },6000)
+        },4500)
         
 
         const loader1=setTimeout(() => {
           document.getElementById("loader").style.transform="translateX(-100%)"
           
-        }, 6000);
+        }, 4500);
 
         loader1();
         loader();
