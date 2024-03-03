@@ -333,15 +333,15 @@ page { background: white;
      
      page[size="A4"] { 
         width: 21cm; 
-        height: 29.7cm;
+        height: 30.5cm;
     }
      
      
      @media print {
          body, page {
              margin: 0;
-             /* padding: 0; */
-              box-shadow: 0; } 
+             padding: 0;
+            box-shadow: 0; } 
     page{
         box-shadow: none;
         border: none;
