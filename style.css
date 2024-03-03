@@ -88,7 +88,7 @@ select{
 .box{
     padding: 30px;
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 70%;
@@ -1112,11 +1112,7 @@ tr.no-border td {
   left: 45%;
   font-weight: 500;
 }
-#mail a{
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-}
+
 
 /* #box1{
   display: none;
@@ -1187,8 +1183,18 @@ tr.no-border td {
 
 #footer{
   position: absolute;
-  bottom: 0;
+  bottom: 1;
   font-size: "gilroy";
+  width: 400px;
+  height: 220px;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%,0);
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.663);
+
 }
 
 
