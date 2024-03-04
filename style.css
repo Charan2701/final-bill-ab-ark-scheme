@@ -1172,3 +1172,12 @@ tr.no-border td {
 }
 
 
+#box1{
+  display: block;
+}
+#box{
+  display: none;
+}
+#box2{
+  display: none;
+}
