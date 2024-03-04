@@ -706,6 +706,7 @@ tr.no-border td {
 #p6imagel img{
   margin-top: 30px;
   width: 70%;
+  height: 100%;
   
 }
 #p6imager{
@@ -715,7 +716,7 @@ tr.no-border td {
 
 #p6imager img{
   width: 100%;
-  height: 100%;
+  
   
 }
 
