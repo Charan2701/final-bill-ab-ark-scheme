@@ -1143,7 +1143,7 @@ tr.no-border td {
   position: absolute;
   bottom: 1;
   font-size: "gilroy";
-  width: 420px;
+  width: 400px;
   height: 190px;
   top: 115%;
   left: 50%;
@@ -1160,13 +1160,15 @@ tr.no-border td {
 
 }
 #footer h1{
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 500;
 
 
   
 }
 #footer h3{
   font-size: 17px;
+  font-weight: 400;
 }
 
 
