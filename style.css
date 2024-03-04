@@ -1113,11 +1113,11 @@ tr.no-border td {
 }
 
 .p5asign{
-  width: 165px;
+  width: 150px;
   height: 80px;
   position: absolute;
   top: 35%;
-  right: 12%;
+  left: 12%;
   background-color: white;
 }
 
@@ -1170,3 +1170,12 @@ tr.no-border td {
 }
 
 
+#box1{
+  display: none;
+}
+#box{
+  display: none;
+}
+#box2{
+  display: block;
+}
